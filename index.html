@@ -37,7 +37,7 @@
        <li ng-repeat="item in buyer.items">
          Buy {{ item.quantity }} {{ item.name }} <button ng-click="buyer.buyItem($index)" class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Bought</button></li>
      </ul>
-     <div ng-if="buyer.items.length == 0" class="emptyMessage"> Everything already Bought!</div>
+     <div ng-if="buyer.items.length == 0" class="emptyMessage"> Everything is bought!</div>
     </div>
 
     <!-- Already Bought List -->
